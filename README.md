@@ -15,7 +15,7 @@ Project Ghost was developed to demonstrate advanced Windows Kernel exploitation 
 
 ## 📖 Overview
 
-**Project Ghost** is a sophisticated Proof-of-Concept (PoC) Rootkit designed to bypass modern user-mode security mechanisms by operating directly within the Windows Kernel (Ring 0).
+This project is a sophisticated Proof-of-Concept (PoC) Rootkit designed to bypass modern user-mode security mechanisms by operating directly within the Windows Kernel (Ring 0).
 
 Unlike standard malware that relies on user-mode APIs, Project Ghost leverages a custom Kernel Driver to manipulate OS structures (`EPROCESS`) directly in memory. This allows the accompanying User-Mode Agent to achieve invisibility, instant privilege escalation, and persistent remote access.
 
