@@ -1,5 +1,4 @@
-# Project Ghost 👻
-### Windows Kernel Rootkit & Advanced RAT
+# Windows Kernel Rootkit & Advanced RAT
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20Kernel-0078D6?style=for-the-badge&logo=windows)
 ![Language](https://img.shields.io/badge/Language-C%20%2F%20C%2B%2B%20%2F%20Python-blue?style=for-the-badge)
