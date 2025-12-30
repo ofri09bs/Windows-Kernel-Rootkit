@@ -9,13 +9,13 @@
 
 ## ⚠️ Disclaimer
 **This software is for EDUCATIONAL and RESEARCH purposes only.**
-Project Ghost was developed to demonstrate advanced Windows Kernel exploitation techniques, specifically Direct Kernel Object Manipulation (DKOM). The author takes no responsibility for any misuse of this code. Do not deploy this on systems you do not own or have explicit authorization to test.
+This project was developed to demonstrate advanced Windows Kernel exploitation techniques, specifically Direct Kernel Object Manipulation (DKOM). The author takes no responsibility for any misuse of this code. Do not deploy this on systems you do not own or have explicit authorization to test.
 
 ---
 
 ## 📖 Overview
 
-This project is a sophisticated Proof-of-Concept (PoC) Rootkit designed to bypass modern user-mode security mechanisms by operating directly within the Windows Kernel (Ring 0).
+This project is a sophisticated **Proof-of-Concept** (PoC) Rootkit designed to bypass modern user-mode security mechanisms by operating directly within the Windows Kernel (Ring 0).
 
 Unlike standard malware that relies on user-mode APIs, Project Ghost leverages a custom Kernel Driver to manipulate OS structures (`EPROCESS`) directly in memory. This allows the accompanying User-Mode Agent to achieve invisibility, instant privilege escalation, and persistent remote access.
 
