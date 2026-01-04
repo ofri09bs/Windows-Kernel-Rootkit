@@ -19,6 +19,11 @@ This project is a sophisticated **Proof-of-Concept** (PoC) Rootkit designed to b
 
 Unlike standard malware that relies on user-mode APIs, Project Ghost leverages a custom Kernel Driver to manipulate OS structures (`EPROCESS`) directly in memory. This allows the accompanying User-Mode Agent to achieve invisibility, instant privilege escalation, and persistent remote access.
 
+**The interface preview**:
+
+<img width="550" height="429" alt="צילום מסך 2025-12-20 230023" src="https://github.com/user-attachments/assets/b25f54f4-87e3-40ab-b05c-26652f1e2de5" />
+
+
 ### Key Capabilities
 
 * **👑 Kernel-Level Privilege Escalation:** Instantly elevates the agent to `NT AUTHORITY\SYSTEM` by performing a Token Stealing attack directly in kernel memory.
